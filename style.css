@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #d3e2f0;
+  color: #333;
+}
+
+header {
+  background: #55affd;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Animal Gallery */
+#animals {
+  text-align: center;
+}
+
+.animal-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.animal-card {
+  background: white;
+  border: 1px solid #b79898;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.animal-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.animal-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(14, 11, 11, 0.2);
+}
+
+/* Surprise Section */
+#surprise {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  background: #547394;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #6c94be;
+}
+
+#surpriseAnimal {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #7caee4;
+  font
+}
